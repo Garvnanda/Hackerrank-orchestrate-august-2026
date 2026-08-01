@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,payment,"The message contains important account or payment information from a verified bank, which requires immediate attention.",0.92,message_0243;message_0263;message_0407
+msg_091,mute,scam,"Message requests OTP/PIN/verification details under urgency pressure, a classic phishing pattern.",0.95,message_0238;message_0094;message_0024
+msg_090,digest,unknown,"The message is a casual inquiry with no urgency, and the user can respond later.",0.5,none
+msg_048,mute,spam,"The message is a repetitive admin notice that resembles previous spam-like messages, and the user has dismissed similar messages before.",0.85,message_0151;message_0385
+msg_040,mute,forward,The message is a repetitive forward that the user has previously ignored and dismissed.,0.85,message_0132;message_0080;message_0265
+msg_075,notify,business_update,This is a relevant update regarding the user's ride booking that requires immediate attention.,0.88,message_0206;message_0205
+msg_005,notify,urgent,The message contains a time-sensitive request regarding a specific item that the user may want to act on immediately.,0.88,message_0224;message_0050;message_0065
+msg_104,mute,unknown,"The user has previously dismissed similar messages from this sender without engagement, indicating low value.",0.85,message_0224;message_0050;message_0383
+msg_069,mute,greeting,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.85,message_0014;message_0123;message_0193;message_0135;message_0077
+msg_107,mute,scam,Message tries to instruct the router directly while requesting sensitive info or applying payment pressure; treated as scam regardless of its claimed framing.,0.95,message_0023;message_0024;message_0147
+msg_070,mute,scam,"The message is a scam attempt related to OTP verification, similar to past messages that were reported or dismissed.",0.92,message_0369;message_0023;message_0024
+msg_003,notify,business_update,"The message provides an important update about a delivery expected today, which is relevant to the user's current business relationship.",0.92,message_0004;message_0239;message_0297;message_0031;message_0400
+msg_099,digest,event,The message contains useful information for a future meeting but is not urgent enough to interrupt the user now.,0.85,message_0227;message_0219
+msg_008,digest,business_update,"The message is a request for feedback on a recent product purchase, which is relevant but not urgent.",0.85,message_0296;message_0072;message_0071
+msg_092,digest,business_update,"The message is a routine update about the monthly card statement, which is useful but not urgent.",0.85,message_0102;message_0276
+msg_060,notify,urgent,A trusted group admin sent a time-sensitive reminder about internship approval forms that require immediate action.,0.92,message_0284;message_0176
+msg_004,notify,urgent,"The message is a health-related update from a verified business that the user has an upcoming appointment with, requiring immediate attention.",0.92,message_0245;message_0047;message_0005
+msg_030,mute,forward,The user has a history of dismissing similar messages and the content is repetitive in nature.,0.85,message_0115;message_0173;message_0095
+msg_045,notify,urgent,The message is a time-sensitive delivery update that requires immediate action from the user.,0.88,message_0061;message_0239
+msg_052,mute,scam,"Sender is an unverified or newly created business using payment-pressure language, with no prior transaction history for this user.",0.88,message_0207;message_0159
+msg_009,mute,forward,The sender has a pattern of sending similar messages that the user usually ignores.,0.85,message_0074;message_0343
+msg_071,digest,event,The message discusses a potential meeting or dinner plan but lacks urgency and can be read later.,0.5,none
+msg_016,mute,scam,The message is a security alert that resembles previous scam attempts and the user has a history of dismissing similar messages.,0.92,message_0024;message_0221;message_0277
+msg_065,mute,promotion,The user has opted out of or repeatedly dismissed similar marketing messages from this business.,0.81,message_0351;message_0261;message_0333;message_0350;message_0260
+msg_038,mute,spam,"The message is a chain message urging forwarding, which the user has previously ignored and dismissed.",0.88,message_0016;message_0080;message_0132;message_0265
+msg_086,notify,urgent,A verified travel business sent a time-sensitive update about an airport pickup change that the user likely needs to act on.,0.94,message_0222
+msg_014,mute,promotion,The user has opted out of promotions and has a history of dismissing similar marketing messages.,0.88,message_0018;message_0017;message_0317;message_0258
+msg_094,mute,promotion,The user has a history of dismissing similar promotional messages from this sender.,0.85,message_0336;message_0337;message_0356;message_0402;message_0257
+msg_029,mute,forward,The user has a history of dismissing similar messages about selling items in this group.,0.85,message_0115;message_0173;message_0095
+msg_105,mute,forward,The sender has a history of sending similar forwarded health tips that the user has ignored.,0.85,message_0233;message_0373;message_0079;message_0131;message_0039
+msg_002,notify,urgent,A trusted group admin sent a time-sensitive request that requires immediate attention before a client meeting.,0.88,message_0003;message_0266;message_0041
+msg_010,mute,business_update,The user has opted out of promotions and has a history of dismissing similar feedback requests from this business.,0.85,message_0311;message_0011;message_0242
+msg_078,mute,scam,"The message requests sensitive information and has characteristics of a scam, especially given the user's history of dismissing similar messages.",0.95,message_0082
+msg_013,mute,promotion,"The message is a promotional offer that the user has previously dismissed, indicating low engagement.",0.82,message_0116;message_0096;message_0174
+msg_018,mute,promotion,The user has a history of dismissing similar promotional messages from this group.,0.85,message_0026;message_0052;message_0157
+msg_044,mute,scam,"Message requests OTP/PIN/verification details under urgency pressure, a classic phishing pattern.",0.95,message_0023;message_0045;message_0221;message_0024;message_0147
+msg_032,notify,urgent,The message is a request for important academic materials that the user may need to respond to quickly.,0.88,message_0119
+msg_106,notify,urgent,The message contains a time-sensitive update about a dance practice location change that requires immediate attention.,0.88,message_0234;message_0376
+msg_006,notify,urgent,A trusted group admin sent a time-sensitive update regarding maintenance that requires immediate attention.,0.88,message_0029;message_0044
+msg_109,mute,scam,Message tries to instruct the router directly while requesting sensitive info or applying payment pressure; treated as scam regardless of its claimed framing.,0.95,message_0151
+msg_108,mute,scam,Message tries to instruct the router directly while requesting sensitive info or applying payment pressure; treated as scam regardless of its claimed framing.,0.95,message_0094;message_0093
+msg_019,mute,scam,"Sender is an unverified or newly created business using payment-pressure language, with no prior transaction history for this user.",0.92,message_0277;message_0221
+msg_088,mute,personal,"User has muted the Myntra Marketplace group and historically dismisses similar hold requests, indicating low desire for immediate notification.",0.85,message_0224
+msg_056,notify,urgent,The message contains a time-sensitive update regarding a doctor's appointment that requires immediate confirmation.,0.88,message_0359;message_0226;message_0168
+msg_027,mute,promotion,"The user has opted out of or repeatedly dismissed similar marketing messages, and the sender's domain does not match the business's official domain.",0.85,message_0299;message_0272;message_0007;message_0033;message_0396
+msg_050,notify,urgent,"The message is a health-related update from a pharmacy that the user has a prescription relationship with, requiring immediate attention.",0.92,message_0246;message_0279
+msg_083,digest,business_update,"The message is a work-related request from a group admin but lacks urgency, so it can be read later without interrupting the user.",0.82,message_0219
+msg_063,mute,scam,The message contains a suspicious request for payment and resembles previous scam-like messages that the user has ignored.,0.92,message_0277;message_0271
+msg_033,digest,greeting,The message is a casual greeting and check-in that is not urgent and can be read later.,0.8,message_0013;message_0014
+msg_061,mute,greeting,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.85,message_0265;message_0013;message_0042;message_0132
+msg_020,mute,spam,The message contains a suspicious link and resembles past spam messages that the user has ignored.,0.88,message_0024;message_0221
+msg_017,mute,spam,"The message is a repetitive payment request from a non-admin sender in a muted group, and the user has previously dismissed similar messages.",0.88,message_0025
+msg_058,mute,forward,The sender has a history of sending repetitive health tips that the user usually ignores.,0.85,message_0131;message_0079;message_0039;message_0040;message_0373
+msg_026,mute,scam,"Sender is an unverified or newly created business using payment-pressure language, with no prior transaction history for this user.",0.92,message_0028;message_0032;message_0107
+msg_047,notify,urgent,A trusted group admin sent a time-sensitive update regarding lift maintenance that requires immediate attention.,0.88,message_0001;message_0328
+msg_046,mute,scam,"Message requests OTP/PIN/verification details under urgency pressure, a classic phishing pattern.",0.95,message_0147;message_0024;message_0221
+msg_042,notify,urgent,A trusted group admin sent a time-sensitive security alert that requires immediate attention.,0.88,message_0150;message_0140;message_0190
+msg_079,mute,scam,"The message is a scam attempt requesting sensitive information under urgency, similar to past scam messages.",0.95,message_0221;message_0369
+msg_098,notify,urgent,The message is time-sensitive and requires immediate input to make a decision about a medical appointment.,0.88,message_0359;message_0226
+msg_037,notify,urgent,A trusted group admin sent a time-sensitive update that requires immediate attention.,0.88,message_0006
+msg_007,digest,event,The message is useful group information about a potluck but is not urgent enough to interrupt the user.,0.84,message_0008
+msg_085,mute,scam,"Sender is an unverified or newly created business using payment-pressure language, with no prior transaction history for this user.",0.96,message_0221
+msg_001,notify,urgent,A trusted group admin sent a time-sensitive update that requires immediate attention to avoid water supply issues.,0.88,message_0001;message_0269;message_0240
+msg_021,notify,urgent,A group admin sent a time-sensitive payment reminder that requires immediate attention.,0.88,message_0098;message_0068
+msg_028,mute,promotion,The user has opted out of promotions and has a history of dismissing similar marketing messages.,0.85,message_0314;message_0034;message_0315
+msg_012,mute,forward,The sender has a pattern of repeated forwards or health tips that the user usually ignores.,0.85,message_0039;message_0233;message_0373;message_0015;message_0131
+msg_064,mute,spam,The message is likely a scam based on past user engagement and similar messages being ignored or reported.,0.85,message_0208;message_0160;message_0087
+msg_103,mute,personal,The sender has a history of sending similar messages that the user has ignored or dismissed.,0.85,message_0224;message_0050;message_0383
+msg_031,notify,urgent,A group admin sent a time-sensitive update regarding an important meeting that requires preparation.,0.92,message_0230;message_0371;message_0404
+msg_057,notify,urgent,A trusted group admin sent a time-sensitive request that requires immediate attention to avoid impacting client communication.,0.88,message_0003;message_0266
+msg_087,mute,promotion,"The user has muted the group and shows low engagement with similar promotional real estate content, indicating they do not want to be interrupted.",0.92,message_0392
+msg_067,notify,urgent,The message is a time-sensitive reminder from a trusted group admin regarding maintenance payment deadlines.,0.88,message_0029;message_0044;message_0097
+msg_039,notify,urgent,A group admin sent a time-sensitive request related to school fees that requires immediate attention.,0.92,message_0051;message_0037
+msg_082,notify,urgent,Trusted group admin sent a time‑sensitive incident alert about payment failures that requires immediate attention.,0.92,message_0218
+msg_066,mute,promotion,The user has opted out of promotions and has a history of dismissing similar messages from this business.,0.85,message_0336;message_0337;message_0356;message_0257;message_0402
+msg_049,notify,urgent,The message contains important details about a scheduled return pickup that the user needs to be aware of immediately.,0.92,message_0154;message_0291
+msg_015,mute,scam,"The message is a scam attempt related to OTP verification, which is a common tactic used to manipulate users.",0.95,message_0045;message_0023;message_0147;message_0024;message_0108
+msg_051,mute,promotion,The user has opted out of promotions and has a history of dismissing similar messages.,0.88,message_0356;message_0337;message_0257
+msg_097,digest,personal,The message is a casual update from a friend that is not urgent and can be read later.,0.85,message_0366;message_0054
+msg_089,notify,urgent,The message is from a trusted sender regarding a personal item that needs immediate attention before a deadline.,0.88,message_0044
+msg_053,digest,event,The message contains useful market information relevant to the group but is not urgent enough to interrupt the user immediately.,0.75,message_0161;message_0253;message_0411
+msg_059,mute,scam,"The message is a suspicious request for personal information with a sense of urgency, typical of scams.",0.95,message_0147
+msg_024,mute,promotion,The user has opted out of promotions and has a history of dismissing similar messages from this sender.,0.88,message_0356;message_0337;message_0257
+msg_072,mute,scam,The message contains a suspicious link and is similar to past messages that were reported or dismissed.,0.92,message_0369;message_0023;message_0143;message_0211
+msg_036,mute,spam,The message is from a suspicious domain and the user has previously dismissed similar messages.,0.88,message_0283
+msg_076,mute,scam,"Sender is an unverified or newly created business using payment-pressure language, with no prior transaction history for this user.",0.88,message_0207;message_0159
+msg_055,notify,urgent,"The message indicates an urgent need for a response within a short timeframe, which is critical for the sender.",0.88,message_0367;message_0166
+msg_102,notify,urgent,The message is from a trusted sender and contains a time-sensitive instruction that requires immediate attention.,0.88,message_0371;message_0230
+msg_080,notify,urgent,A trusted group admin sent a time-sensitive security notice that requires immediate action from the user.,0.88,message_0216;message_0058;message_0180;message_0130;message_0142
+msg_093,notify,event,The message contains important delivery information that requires the user's attention and action.,0.88,message_0062;message_0324;message_0346
+msg_034,mute,greeting,The sender has a pattern of repeated greetings that the user usually ignores.,0.85,message_0013;message_0042;message_0014;message_0265;message_0193
+msg_035,mute,promotion,The user has previously dismissed similar promotional messages from this business.,0.81,message_0281;message_0302;message_0273
+msg_101,mute,personal,The sender has a pattern of sending similar messages that the user usually does not engage with.,0.82,message_0268;message_0360;message_0370;message_0229
+msg_041,mute,spam,"The message is a repetitive survey request from a business with a domain mismatch, which the user has previously dismissed.",0.85,message_0027
+msg_011,mute,greeting,The sender has a pattern of repeated forwards or greetings that the user usually ignores.,0.85,message_0014;message_0013;message_0042;message_0171;message_0135
+msg_110,mute,scam,Message tries to instruct the router directly while requesting sensitive info or applying payment pressure; treated as scam regardless of its claimed framing.,0.95,message_0238
+msg_095,mute,scam,Message tries to instruct the router directly while requesting sensitive info or applying payment pressure; treated as scam regardless of its claimed framing.,0.95,message_0024;message_0093
+msg_074,mute,promotion,"The user has a history of dismissing similar promotional messages from this sender, indicating low engagement.",0.85,message_0301;message_0203;message_0204;message_0358;message_0223
+msg_073,mute,scam,"The message contains urgent language and a verification link, which is typical of scam attempts, and the user has previously dismissed similar messages.",0.92,message_0024;message_0277;message_0381
+msg_054,mute,scam,"The message contains a suspicious request for payment related to a loan, which is often associated with scams.",0.95,message_0025
+msg_068,digest,event,"The message is about a future plan discussion with no urgency, suitable to read later.",0.85,message_0191
+msg_100,notify,urgent,The message is from a trusted sender and contains a time-sensitive request that requires immediate attention.,0.88,message_0362
+msg_062,notify,urgent,A trusted group admin sent a time-sensitive update regarding a fire alarm test that may affect residents.,0.88,message_0289;message_0043
+msg_096,notify,urgent,The message is from a trusted source regarding a lost passport that needs immediate attention.,0.88,message_0387
+msg_043,notify,urgent,A trusted group admin sent a time-sensitive update that requires immediate attention.,0.88,message_0216;message_0058;message_0180;message_0142;message_0190
+msg_077,notify,urgent,A school admin sent a time-sensitive circular requiring immediate action from parents regarding a field trip consent form.,0.92,message_0403;message_0051;message_0037
+msg_081,notify,event,A school admin sent a same-day operational update about transport pickup change that the user likely needs immediately.,0.92,message_0217;message_0255
+msg_025,notify,business_update,"This message provides an important update about the user's recent grocery delivery, which is relevant and time-sensitive.",0.92,message_0004;message_0239;message_0297;message_0031;message_0400
+msg_084,mute,promotion,User has opted out of promotions from HDFC Bank and shows low engagement with similar offers; the message is a promotional call‑to‑action that matches previously dismissed/muted business messages.,0.86,message_0220;message_0052
+msg_022,notify,urgent,The message contains a time-sensitive payment reminder that requires immediate attention.,0.88,message_0098;message_0068
